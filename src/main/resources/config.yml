@@ -1,0 +1,62 @@
+damage:
+  base: 22.0
+  velocity_multiplier: 2.5
+  fall_multiplier: 1.8
+  max_damage: 40.0
+  true_damage_percent: 10
+  critical_multiplier: 1.5
+
+cooldowns:
+  lunge: 1.2
+  dash: 5.0
+  teleport: 8.0
+
+effects:
+  lightning_on_hit: true
+  particles: true
+  sounds: true
+  shield_crush_chance: 25
+  knockback_multiplier: 2.0
+  explosion_visual: true
+
+lunge:
+  horizontal_multiplier: 1.8
+  vertical_multiplier: 0.5
+  wind_charge_window: 1.5
+  fall_damage_immunity_duration: 3.0
+
+respawn:
+  mode: "spawn"
+  safe_location_search_radius: 50
+
+buffs:
+  strength_duration: 10
+  strength_amplifier: 1
+  speed_duration: 10
+  speed_amplifier: 1
+  absorption_duration: 8
+  absorption_amplifier: 1
+
+passive:
+  speed_enabled: true
+  speed_amplifier: 0
+
+item:
+  name: "&c&lGOD SPEAR"
+  custom_model_data: 1000
+  lore:
+    - "&7The one and only God Spear"
+    - "&8Right click to dash • Shift + Right click to teleport"
+    - "&8Left click in air to lunge"
+
+messages:
+  player_not_found: "&cPlayer not found!"
+  already_exists: "&cA God Spear already exists on the server!"
+  spear_given: "&aGod Spear given to {player}!"
+  spear_reset: "&aGod Spear has been reset!"
+  no_spear_exists: "&cNo God Spear currently exists!"
+  spear_info: "&6Owner: &f{owner} &6| Kills: &f{kills} &6| Location: &f{location}"
+  spear_teleported: "&aTeleported to the God Spear!"
+  config_reloaded: "&aConfig reloaded!"
+  cooldown_active: "&cAbility on cooldown! {time}s remaining."
+  worldguard_blocked: "&cYou cannot use God Spear abilities in this region!"
