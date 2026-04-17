@@ -1,0 +1,11 @@
+name: GodSpear
+version: 1.0.0
+main: com.godspear.GodSpear
+api-version: 1.21
+authors: [YourName]
+description: The one and only God Spear (Netherite Spear base)
+softdepend: [WorldGuard, PlaceholderAPI, Vault, Floodgate]
+permissions:
+  godspear.admin:
+    description: Admin commands for GodSpear
+    default: op
